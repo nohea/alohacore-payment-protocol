@@ -1,5 +1,5 @@
 {
-  "name": "alohacore-payment-protocol",
+  "name": "bitcore-payment-protocol",
   "version": "1.2.1",
   "description": "Payment Protocol (BIP70 and related) support for bitcore",
   "author": "BitPay <dev@bitpay.com>",
@@ -39,12 +39,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nohea/alohacore-payment-protocol.git"
+    "url": "https://github.com/bitpay/bitcore-payment-protocol.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "alohacore-lib": "file:../alohacore-lib",
+    "bitcore-lib": "^0.14.0",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
